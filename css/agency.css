@@ -4,6 +4,21 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*
+CSS imported from hugo-theme-air screen.css
+*/
+/* canvas {
+  display: block;
+  vertical-align: bottom;
+} */
+
+/* canvas.particles-js-canvas-el {
+  height:80%;
+} */
+
+/*
+Original CSS from Agency
+*/
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -297,8 +312,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    /* padding-top: 100px;*/
+    padding-bottom: 12.5px;
 }
 
 header .intro-text .intro-lead-in {
@@ -313,15 +328,15 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        /* padding-top: 300px;*/
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
@@ -336,9 +351,9 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 60px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 60px;
     }
 }
 
